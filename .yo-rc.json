@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mageshuo.trash"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "trashhelper",
+    "packageName": "com.mageshuo.trash",
+    "packageFolder": "com/mageshuo/trash",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmE5MGE2ZDIyNzEyZDRkZTEyZDdhYWQ2YTEyMzdhZGY3MmMxMDA5MTgwMWQ3MTlkMzRiOTEyNjk3ZGFhYWQ3YzA5NWE0NzA3NzEwMGI3ZjAwMjQzYTliMDQwY2M0ZDg1NmI4YzVmYWJjMjYzMDA1YmVmNTc1ODg4ZjJjMmQyNzY=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
