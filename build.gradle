@@ -3,6 +3,7 @@ import org.gradle.internal.os.OperatingSystem
 buildscript {
     repositories {
         mavenLocal()
+	    maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         mavenCentral()
         gradlePluginPortal()
         maven { url "http://repo.spring.io/plugins-release" }

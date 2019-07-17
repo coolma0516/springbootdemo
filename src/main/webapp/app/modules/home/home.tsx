@@ -21,7 +21,7 @@ export class Home extends React.Component<IHomeProp> {
     return (
       <Row>
         <Col md="9">
-          <h2>Welcome, Java Hipster!</h2>
+          <h2>Welcome, Dude, We have to do something to make the world better!</h2>
           <p className="lead">This is your homepage</p>
           {account && account.login ? (
             <div>
@@ -52,34 +52,19 @@ export class Home extends React.Component<IHomeProp> {
 
           <ul>
             <li>
-              <a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">
-                JHipster homepage
+              <a href="https://gitlab.dev.activenetwork.com" target="_blank" rel="noopener noreferrer">
+                Our project home
               </a>
             </li>
             <li>
-              <a href="http://stackoverflow.com/tags/jhipster/info" target="_blank" rel="noopener noreferrer">
-                JHipster on Stack Overflow
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/jhipster/generator-jhipster/issues?state=open" target="_blank" rel="noopener noreferrer">
-                JHipster bug tracker
-              </a>
-            </li>
-            <li>
-              <a href="https://gitter.im/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
-                JHipster public chat room
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/java_hipster" target="_blank" rel="noopener noreferrer">
-                follow @java_hipster on Twitter
+              <a href="mailto:jason.ma@activenetwork.com" target="_blank" rel="noopener noreferrer">
+                Feel free to send email to me!
               </a>
             </li>
           </ul>
 
           <p>
-            If you like JHipster, do not forget to give us a star on{' '}
+            This is the demo of the refactor our ANET application.{' '}
             <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
               Github
             </a>
