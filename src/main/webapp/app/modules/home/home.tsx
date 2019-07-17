@@ -52,7 +52,7 @@ export class Home extends React.Component<IHomeProp> {
 
           <ul>
             <li>
-              <a href="https://gitlab.dev.activenetwork.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/coolma0516/springbootdemo" target="_blank" rel="noopener noreferrer">
                 Our project home
               </a>
             </li>
@@ -62,14 +62,7 @@ export class Home extends React.Component<IHomeProp> {
               </a>
             </li>
           </ul>
-
-          <p>
-            This is the demo of the refactor our ANET application.{' '}
-            <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
-              Github
-            </a>
-            !
-          </p>
+          <p>This is the demo of the refactor our ANET application.</p>
         </Col>
         <Col md="3" className="pad">
           <span className="hipster rounded" />
